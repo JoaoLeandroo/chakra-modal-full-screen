@@ -12,7 +12,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="pt-BR">
-      <body className={inter.className}>
+      <body className={`${inter.className} flex items-center justify-center w-screen h-screen bg-red-600`}>
       <ChakraProvider>
           {children}  
       </ChakraProvider>
