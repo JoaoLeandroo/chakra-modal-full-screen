@@ -11,7 +11,6 @@ import {
   ModalBody,
   ModalCloseButton,
   Button,
-  background,
 } from '@chakra-ui/react'
 
 export default function ModalGeneric(props) {
@@ -32,7 +31,10 @@ export default function ModalGeneric(props) {
         key={size}
         m={4}
         color={'white'}
-        background={'blue.900'}
+        // bg="blue.900"
+        bg="brand.300"
+        borderRadius={"full"}
+        h={120}
         >
             Open Modal
         </Button>
